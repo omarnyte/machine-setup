@@ -1,0 +1,43 @@
+
+"
+" Plugins
+"
+
+" Load Plug and plugins
+call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'kien/ctrlp.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'plasticboy/vim-markdown'
+Plug 'godlygeek/tabular'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'arcticicestudio/nord-vim'
+call plug#end()
+
+
+"
+" Theme Settings
+"
+
+" Set colorsceme to nord
+silent! colorscheme nord
+" Activate nord airline theme
+let g:airline_theme='nord'
+
+"
+" General
+"
+"
+" Spaces & Tabs
+set tabstop=2	" number of visual spaces per TAB
+set softtabstop=2   " number of spaces in tab when editing
+set expandtab    " tabs are spaces
+
+"
+" UI Config
+"
+set number  " show line numbers
+set cursorline  " highlight current line

@@ -1,0 +1,12 @@
+[alias]
+	aa = add --all :/
+	co = checkout
+        
+[user]
+	email = omar@xolos.tech
+	name = Omar De Los Santos
+[core]
+	autocrlf = input
+	hooksPath = .githooks
+[init]
+	defaultBranch = main
